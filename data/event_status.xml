@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- ########################################################################################### -->
+        <!-- ####################################################     Agenda status     ################## -->
+        <!-- ########################################################################################### -->
+        <record id="agenda_status_1" model="agenda.status">
+            <field name="name">RDV ouvert à la réservation</field>
+            <field name="color">#CFE2FF</field>
+            <field name="key">open</field>
+        </record>
+        <record id="agenda_status_2" model="agenda.status">
+            <field name="name">RDV réservé</field>
+            <field name="color">#337AB7</field>
+            <field name="key">booked</field>
+        </record>
+        <record id="agenda_status_3" model="agenda.status">
+            <field name="name">RDV fait</field>
+            <field name="color">#C2F299</field>
+            <field name="key">done</field>
+        </record>
+        <record id="agenda_status_4" model="agenda.status">
+            <field name="name">RDV facturé</field>
+            <field name="color">#0BD912</field>
+            <field name="key">paid</field>
+        </record>
+        <record id="agenda_status_5" model="agenda.status">
+            <field name="name">RDV annulé</field>
+            <field name="color">#F2CC72</field>
+            <field name="key">cancel</field>
+        </record>
+        <record id="agenda_status_6" model="agenda.status">
+            <field name="name">N'est pas venu(e)</field>
+            <field name="color">#FA887F</field>
+            <field name="key">not_come</field>
+        </record>
+        
+        
+
+    </data>
+</openerp>
